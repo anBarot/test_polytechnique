@@ -122,5 +122,5 @@ STATIC_URL = '/static/'
 
 NOTION_CLIENT_ID = os.environ.get("NOTION_CLIENT_ID", "32913b62-e489-4807-b6f9-2e1982a9eed1")
 NOTION_CLIENT_SECRET = os.environ.get("NOTION_CLIENT_SECRET", "secret_Tk1rbDamjA1uwAIuUhxCz5uLmBVmyeFe6IfRvQsXWIT")
-NOTION_AUTH_URL = os.environ.get("NOTION_AUTH_URL", "https://api.notion.com/v1/oauth/authorize?client_id=32913b62-e489-4807-b6f9-2e1982a9eed1&response_type=code&owner=user&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Fnotion%2Fredirect")
 NOTION_INTEGRATION_TOKEN = os.environ.get("NOTION_INTEGRATION_TOKEN", "secret_xDEGFJoLchYu05Hre5eB1oWrlrAT4odV1eHV9S3CRoO")
+NOTION_AUTH_URL = os.environ.get("", "https://api.notion.com/v1/oauth/authorize?client_id=32913b62-e489-4807-b6f9-2e1982a9eed1&response_type=code&owner=user&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Fnotion%2Fredirect")
