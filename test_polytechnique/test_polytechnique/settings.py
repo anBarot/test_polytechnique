@@ -126,4 +126,4 @@ NOTION_CLIENT_SECRET = os.environ.get("NOTION_CLIENT_SECRET", "secret_Tk1rbDamjA
 NOTION_INTEGRATION_TOKEN = os.environ.get("NOTION_INTEGRATION_TOKEN", "secret_xDEGFJoLchYu05Hre5eB1oWrlrAT4odV1eHV9S3CRoO")
 NOTION_AUTH_URL = os.environ.get("NOTION_AUTH_URL", "https://api.notion.com/v1/oauth/authorize?client_id=32913b62-e489-4807-b6f9-2e1982a9eed1&response_type=code&owner=user&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Fnotion%2Fredirect")
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
-FIELD_ENCRYPTION_KEY = os.environ.get("FIELD_ENCRYPTION_KEY", "")
+# FIELD_ENCRYPTION_KEY = os.environ.get("FIELD_ENCRYPTION_KEY", "")
